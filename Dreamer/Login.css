@@ -1,0 +1,139 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body
+{
+  text-decoration: none;
+  color: 5f5f5f;
+}
+a
+{
+  text-decoration: none;
+  color: 5f5f5f;
+}
+body {
+    background-color: #171a1f ;
+    font-family: Arial, sans-serif;
+}
+
+form 
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    margin: 30px auto;
+    width: 30%;
+    font-family: Helvetica,Geneva;
+
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+label[id="Keep-signed"]
+{
+  background-color: ;
+  color: #010101;
+}
+pre[id="new"]
+{
+  font-family: sans-serif,Helvetica;
+  padding: 20px;
+  font-size: 15px;
+}
+input[id="register"]
+{
+  font-family: cursive;
+} 
+
+input[type="text"], input[type="password"], input[type="email"]
+ {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    color: #333;
+    border-top: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+input[type="submit"] 
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+input[type="submit"]:hover
+{
+    background-color: #45a049;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #999;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #999;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #999;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #999;
+}
+
+.logo-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.text
+{
+  align-items: center;
+   font-weight: bold;
+   text-align: center;
+   margin: 0 auto;
+   font-family: inherit;
+   box-sizing: inherit;
+}
+.toggle-btn
+{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+button-box button[type="button"]
+{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height:100%;
+  background: linear-gradient(to right,#ff105f,#ffad06);
+  border-radius: 30px;
+  transition: .5s;
+}

@@ -1,0 +1,117 @@
+body
+{
+  background-image:linear-gradient(rgba(0, 8, 51, 0.9),rgba(0, 8, 51, 0.9)) ,url(image1.jfif);
+  font-family: montserrat;
+  background-color:#000000;
+  background-size: cover;
+}
+
+nav {
+  background-color:#4571ff;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative;
+  background-image:linear-gradient(rgba(0, 8, 51, 0.9),rgba(0, 8, 51, 0.9)) ,url(image3.png);
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+}
+
+.nav-toggle-label {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.nav-toggle:checked + .nav-toggle-label {
+  display: block;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  flex: 1;
+  text-align: center;
+
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  display: block;
+  color: #1b1b1b;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 8px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover
+{
+  background:#145A32;
+  color :#fff;
+  transition: .5s;
+}
+@media (max-width: 600px) {
+  .nav-menu {
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    text-align: center;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  .search-form
+  {
+  position: absolute;
+  right: 250px;
+  height: 45px;
+  max-width: 555px;
+  width: 100%;
+  background-color:#145A32;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s linear;
+  }
+
+.logo1
+{
+  size: 2px;
+  width: 5px; /* specify width of the logo */
+  height: 2px; /* specify height of the logo */
+}
+
+.search-form input[type="text"] 
+{
+  background-color: #f1f1f1;
+   border: 2px solid #333;
+  border-radius: 30px;
+  color: #333;
+  font-size: 1em;
+  text-align: center;
+}
+
